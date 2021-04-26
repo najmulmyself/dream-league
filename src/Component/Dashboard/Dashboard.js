@@ -14,7 +14,7 @@ const Dashboard = () => {
     return (
         <div className="dashboard-container">
             {
-                team.map(eachTeam => <Team name={eachTeam.strTeam} type={eachTeam.strSport} img={eachTeam.strTeamBadge}></Team>)
+                team.map(eachTeam => <Team id={eachTeam.idTeam} name={eachTeam.strTeam} type={eachTeam.strSport} img={eachTeam.strTeamBadge}></Team>)
             }
         </div>
     );
