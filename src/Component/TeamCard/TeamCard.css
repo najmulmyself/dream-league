@@ -1,0 +1,33 @@
+.team-card{
+    background-color: aquamarine;
+    width: 100%;
+     display: flex;
+     border-radius: 10px;
+     margin-top: 15px !important;
+     justify-content: space-between;
+}
+.internal-style{
+    padding: 0 20px;
+}
+.team-photo{
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+}
+.icon-div{
+    text-align: center;
+    margin-top: 50px;
+}
+.icon{
+    padding: 0 10px;
+    font-size: 30px;
+}
+.icon:nth-child(1){
+    color: rgb(21, 113, 199);
+}
+.icon:nth-child(2){
+    color: rgb(10, 84, 243);
+}
+.icon:nth-child(3){
+    color: red;
+}
