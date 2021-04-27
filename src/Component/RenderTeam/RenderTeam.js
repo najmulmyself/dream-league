@@ -1,5 +1,5 @@
 import React from 'react';
-import Dashboard from '../Dashboard/Dashboard';
+// import Dashboard from '../Dashboard/Dashboard';
 import Header from '../Header/Header';
 import TeamCard from '../TeamCard/TeamCard';
 

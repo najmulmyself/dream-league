@@ -16,8 +16,18 @@
     height: 100px;
     width: auto;
 }
-@media screen and (max-width: 900px) and (min-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 280px) {
     .header{
         width: 100%;
     }
 }
+/* @media screen and (max-width: 768px) and (min-width: 600px) {
+    .header{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .header{
+        width: 100%;
+    }
+} */

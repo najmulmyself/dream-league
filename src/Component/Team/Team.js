@@ -9,7 +9,6 @@ const Team = (props) => {
     const handleClick = id =>{
         const url = `/team/${id}`;
         history.push(url);
-        console.log(1)
     }
 
 
