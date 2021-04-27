@@ -3,8 +3,9 @@ import img from '../../Images/stadium.jpg'
 import './Header.css'
 const Header = (props) => {
     const logo = props.logo;
+    console.log(logo)
     let show;
-    if (logo === true) {
+    if (logo) {
         show = <img className='header' src={logo}/>;
     }
     else{
