@@ -13,8 +13,6 @@ import NoMatch from './Component/NoMatch/NoMatch';
 function App() {
   return (
     <div>
-      {/* <Header></Header>
-      <Dashboard></Dashboard> */}
       <Router>
         <Switch>
           <Route exact path="/">

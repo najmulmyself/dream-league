@@ -13,7 +13,6 @@ const TeamDetails = () => {
     },[])
     return (
         <div>
-            {/* <h1>Heres Team id {teamId} Details</h1> */}
             {
                 teamDetails.map(team => <RenderTeam country={team.strCountry} description={team.strDescriptionEN} year={team.intFormedYear} gender={team.strGender} type={team.strSport} id={team.idTeam} logo={team.strTeamBadge} name={team.strTeam}></RenderTeam>)
             }

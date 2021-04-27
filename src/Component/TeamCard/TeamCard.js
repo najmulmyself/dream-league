@@ -1,7 +1,7 @@
 import React from 'react';
 import './TeamCard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faMapMarkerAlt , faFlag, faFutbol, faMars} from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt , faFlag, faFutbol, faMars} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook,faTwitter,faYoutube} from '@fortawesome/free-brands-svg-icons';
 import male from '../../Images/male.png'
 import female from '../../Images/female.png'

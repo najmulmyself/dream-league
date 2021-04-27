@@ -4,7 +4,6 @@ import Header from '../Header/Header';
 import TeamCard from '../TeamCard/TeamCard';
 
 const Test = (props) => {
-    console.log(props)
     const {name,year,type,gender,id,country,logo,description} = props;
     return (
         <div>
