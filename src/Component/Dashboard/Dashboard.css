@@ -5,3 +5,34 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 600px) and (min-width: 280px) {
+    .dashboard-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 600px) {
+    .dashboard-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .dashboard-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 1024px){
+    .dashboard-container{
+        width: 1208px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
